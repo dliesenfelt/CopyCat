@@ -1,0 +1,59 @@
+:root {
+    --main-grey: #36393f;
+    --message-bar-grey: #2f3136;
+    --nav-bar-grey: #202225;
+    --user-bar-grey: #292b2f;
+    --highlight: #393c42;
+    --misc-text: #8e9297;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav {
+    background-color: var(--nav-bar-grey);
+}
+
+nav img {
+    border-radius: 25%;
+    height: 50px;
+    width: 50px;
+}
+
+#mid-nav img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+main {
+    background-color: var(--main-grey);
+    color: white;
+}
+
+main img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+aside {
+    background-color: var(--message-bar-grey);
+    color: var(--misc-text);
+}
+
+
+aside img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+#user-bar {
+    background-color: var(--user-bar-grey);
+}
+
+#user h3 {
+    color: white;
+}
