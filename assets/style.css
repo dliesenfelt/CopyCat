@@ -7,6 +7,10 @@
     --misc-text: #8e9297;
 }
 
+img {
+    margin: 5px;
+}
+
 ul li {
     list-style: none;
 }
@@ -48,6 +52,7 @@ aside img {
     border-radius: 50%;
     height: 35px;
     width: 35px;
+    
 }
 
 #user-bar {

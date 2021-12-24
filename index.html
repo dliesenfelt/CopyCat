@@ -8,10 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
-<body>
-    <div class="" id="container">
-        <header class="">
-            <nav class="">
+<body class="container-fluid">
+    <div class="row" id="row-container">
+        <header class="col-4 container-fluid row">
+            <nav class="col-4">
                 <div class="" id="top-nav">
                     <img src="./assets/images/discord-logo.png" alt="discord logo">
                 </div>
@@ -19,19 +19,12 @@
                     <img src="./assets/images/santa-gang-server.jpg" alt="Santa Gang">
                     <img src="./assets/images/nice-list-server.png" alt="Nice List">
                     <img src="./assets/images/naighty-list-server.jpg" alt="Naughty List">
-                    <img src="./assets/images/" alt="add new server">
-                    <img src="./assets/images/" alt="explore">
-                </div>
-                <div class="" id="bot-nav">
-                    <img src="" alt="download apps">
                 </div>
             </nav>
-            <aside class="" id="message-bar">
-                
+            <aside class="col-8 container-fluid row" id="message-bar"> 
                 <div class="" id="main-mess">
                     <div class="" id="direct">
                         <h2>DIRECT MESSAGES</h2>
-                        <button class="" id="add-message">+</button>
                     </div>
                     <ul class="" id="direct-message-list">
                         <li><img src="./assets/images/dasher-pro.jpg" alt="Dasher">Dasher</li>
@@ -45,21 +38,16 @@
                         <li><img src="./assets/images/rudolph-pro.jpg" alt="Rudolph">Rudolph</li>
                     </ul>
                 </div>
-                <div class="" id="user-bar">
+                <div class="col align-self-end" id="user-bar">
                     <div class="" id="user" >
                         <img src="./assets/images/santa-pro.jpg" alt="User Picture">
                         <h3 id="user-name">xX Old Man Nick Xx </h3>
                         <h4 id="user-id">#1225</h4>
                     </div>
-                    <div class="" id="controls">
-                        <button><img src="" alt="Mute"></button>
-                        <button><img src="" alt="Deafen"></button>
-                        <button><img src="" alt="Settings"></button>
-                    </div>
                 </div>
             </aside>
         </header>
-        <main>
+        <main class="col-8">
             <div class="" id="main-top-bar">
                 <div class="" id="main-friends">
                     <h2>Friends</h2>
@@ -71,29 +59,18 @@
                         <li>Pending</li>
                         <li>Blocked</li>
                     </ul>
-                    <button class="" id="add-friend-btn">Add Friend</button>
+                    <button class="btn btn-success" id="add-friend-btn">Add Friend</button>
                 </div>
                 <div class="" id="main-controls">
-                    <div class="" id="new group">
-                        <button class="" id="new-group-btn"><img src="" alt="new group dm"></button>
-                    </div>
-                    <div class="" id="misc-btns">
-                        <button class="" id="inbox-btn"><img src="" alt="inbox"></button>
-                        <button class="" id="help-btn"><img src="" alt="help"></button>
-                    </div>
                 </div>
             </div>
             <div class="" id="main-container">
                 <h3>Online-4</h3>
                 <div class="" id="friend1">
-                    <div class="" id="friend1-left">
+                    <div class="" id="friend-left">
                         <img src="./assets/images/buddy-pro.png" alt="friend-buddy-elf">
                         <h3>BuddyTheElf</h3>
                         <h4>Playing Candy Crush</h4>
-                    </div>
-                    <div class="" id="friend-controls">
-                        <button class="" id="message-friend-btn"><img src="" alt="message-btn"></button>
-                        <button class="" id="more-btn"><img src="" alt="more-btn"></button>
                     </div>
                 </div>
                 <div class="" id="friend2">
@@ -102,10 +79,6 @@
                         <h3>Krampus</h3>
                         <h4>Away</h4>
                     </div>
-                    <div class="" id="friend-controls">
-                        <button class="" id="message-friend-btn"><img src="" alt="message-btn"></button>
-                        <button class="" id="more-btn"><img src="" alt="more-btn"></button>
-                    </div>
                 </div>
                 <div class="" id="friend3">
                     <div class="" id="friend-left">
@@ -113,20 +86,12 @@
                         <h3>Dasher</h3>
                         <h4>Playing Euro Truck Simulator 2</h4>
                     </div>
-                    <div class="" id="friend-controls">
-                        <button class="" id="message-friend-btn"><img src="" alt="message-btn"></button>
-                        <button class="" id="more-btn"><img src="" alt="more-btn"></button>
-                    </div>
                 </div>
                 <div class="" id="friend4">
                     <div class="" id="friend-left">
                         <img src="./assets/images/rudolph-pro.jpg" alt="Rudolph">
                         <h3>Rudolph</h3>
                         <h4>Do Not Disturb</h4>
-                    </div>
-                    <div class="" id="friend-controls">
-                        <button class="" id="message-friend-btn"><img src="" alt="message-btn"></button>
-                        <button class="" id="more-btn"><img src="" alt="more-btn"></button>
                     </div>
                 </div>
             </div>
